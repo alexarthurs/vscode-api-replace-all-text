@@ -1,6 +1,6 @@
 {
   "name": "vscode-replace-all-text",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Replaces all text in an active editor using the vscode api.",
   "main": "./out/index",
   "engines": {
