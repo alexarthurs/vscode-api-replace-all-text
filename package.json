@@ -1,0 +1,43 @@
+{
+  "name": "vscode-replace-all-text",
+  "version": "0.1.0",
+  "description": "Replaces all text in an active editor using the vscode api.",
+  "main": "./out/index",
+  "engines": {
+    "vscode": "^1.25.0"
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "mocha -r ts-node/register src/**/test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexarthurs/vscode-api-replace-all-text.git"
+  },
+  "keywords": [
+    "vscode",
+    "api",
+    "replace",
+    "all",
+    "text",
+    "editor"
+  ],
+  "author": "Alex Arthurs <info@alexarthurs.com> (http://www.alexarthurs.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexarthurs/vscode-api-replace-all-text/issues"
+  },
+  "homepage": "https://github.com/alexarthurs/vscode-api-replace-all-text#readme",
+  "devDependencies": {
+    "@types/node": "^10.5.7",
+    "ts-node": "^7.0.0",
+    "typescript": "^3.0.1",
+    "typings": "^2.1.1",
+    "vscode": "^1.1.18"
+  },
+  "dependencies": {
+  }
+}
